@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  
+  <!-- Primary Meta Tags -->
+  <title>NeoTechVault - Discover Tomorrow's Gadgets Today | Compare Prices on Amazon & eBay</title>
+  <meta name="title" content="NeoTechVault - Discover Tomorrow's Gadgets Today | Compare Prices on Amazon & eBay" />
+  <meta name="description" content="Find the best futuristic gadgets and tech products. Compare prices from Amazon and eBay. Wireless earbuds, smartwatches, gaming keyboards, and more. Save money on cutting-edge technology." />
+  <meta name="keywords" content="tech gadgets, futuristic gadgets, wireless earbuds, smartwatch, gaming keyboard, portable charger, USB-C hub, LED desk lamp, Amazon deals, eBay deals, compare tech prices" />
+  <meta name="author" content="NeoTechVault" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <link rel="canonical" href="https://yourwebsite.com/" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourwebsite.com/" />
+  <meta property="og:title" content="NeoTechVault - Discover Tomorrow's Gadgets Today" />
+  <meta property="og:description" content="Find the best futuristic gadgets and tech products. Compare prices from Amazon and eBay." />
+  <meta property="og:image" content="https://yourwebsite.com/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="NeoTechVault" />
+  <meta property="og:locale" content="en_US" />
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://yourwebsite.com/" />
+  <meta name="twitter:title" content="NeoTechVault - Discover Tomorrow's Gadgets Today" />
+  <meta name="twitter:description" content="Find the best futuristic gadgets and tech products. Compare prices from Amazon and eBay." />
+  <meta name="twitter:image" content="https://yourwebsite.com/twitter-image.jpg" />
+  <meta name="twitter:creator" content="@yourtwitterhandle" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  
+  <!-- Google AdSense (Replace with your publisher ID) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+     crossorigin="anonymous"></script>
+  
+  <!-- Google Analytics 4 (Replace with your Measurement ID) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  
+  <!-- Schema.org JSON-LD (Add before closing head tag) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "NeoTechVault",
+    "url": "https://yourwebsite.com",
+    "description": "Curated futuristic gadgets and tech products",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://yourwebsite.com/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Toast Notification -->
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  
+  <header class="container">
+    <div class="brand">
+      <div class="logo-placeholder" aria-hidden="true">NTV</div>
+      <div>
+        <div class="site-title">NeoTechVault</div>
+        <div class="kicker">Curated futuristic gadgets</div>
+      </div>
+    </div>
+    
+    <nav class="nav" aria-label="Main navigation">
+      <button class="ghost" id="themeToggle" aria-label="Toggle theme">🌙 Dark</button>
+      <a class="ghost" href="#about">About</a>
+      <a class="ghost" href="#faq">FAQ</a>
+      <button class="btn" id="contactBtn">Contact</button>
+    </nav>
+    
+    <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+      ☰
+    </button>
+  </header>
+  
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+    <div class="mobile-nav-items">
+      <button class="ghost" id="themeToggleMobile" aria-label="Toggle theme">🌙 Dark</button>
+      <a class="ghost" href="#about">About</a>
+      <a class="ghost" href="#faq">FAQ</a>
+      <button class="btn" id="contactBtnMobile">Contact</button>
+    </div>
+  </nav>
+
+  <main class="container" id="mainContent">
+    <section class="hero">
+      <div class="media">
+        <video id="heroVideo" autoplay muted loop playsinline preload="metadata" poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'%3E%3Crect fill='%23141b2d' width='800' height='600'/%3E%3C/svg%3E">
+          <source src="assets/Generate_a_video_202510171823_9v8nu.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="content">
+        <h1><span class="typing-text" id="typingText"></span></h1>
+        <p class="lead">Compare prices from Amazon and eBay. Click any product to explore and buy safely through our affiliate links.</p>
+        <div class="btn-group">
+          <button class="btn" id="featuredBtn">View Featured</button>
+          <a class="ghost" href="#products">Browse All</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="controls">
+      <input type="search" id="search" placeholder="Search gadgets..." aria-label="Search products">
+      <select id="categoryFilter" aria-label="Filter by category">
+        <option value="">All categories</option>
+      </select>
+      <select id="sortSelect" aria-label="Sort products">
+        <option value="relevance">Sort: Relevance</option>
+        <option value="price-asc">Price: Low → High</option>
+        <option value="price-desc">Price: High → Low</option>
+        <option value="rating">Top Rated</option>
+      </select>
+      <button class="btn" id="wishlistBtn" aria-label="View wishlist">
+        ❤️ Wishlist <span class="wishlist-badge" id="wishlistBadge">0</span>
+      </button>
+    </div>
+
+    <!-- Loading Indicator -->
+    <div class="loading-spinner hidden" id="loadingSpinner" role="status" aria-live="polite">
+      <div class="spinner"></div>
+      <span class="sr-only">Loading products...</span>
+    </div>
+
+    <section id="products" aria-label="Product grid">
+      <div class="grid" id="productGrid"></div>
+    </section>
+
+    <div class="modal-backdrop" id="modalBackdrop">
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="modalDesc">
+        <div class="modal-header">
+          <h2 class="modal-title" id="modalTitle">Product Details</h2>
+          <button class="close-btn" id="modalClose" aria-label="Close modal">✕</button>
+        </div>
+        
+        <div class="modal-content">
+          <div>
+            <div class="modal-image-wrapper">
+              <img id="modalImage" src="" alt="" loading="lazy">
+            </div>
+          </div>
+          
+          <div class="modal-info-section">
+            <div class="modal-price-row">
+              <div class="modal-price" id="modalPrice">$0.00</div>
+              <div class="modal-category" id="modalCategory">Category</div>
+            </div>
+            
+            <div>
+              <div style="font-weight: 600; margin-bottom: 8px; font-size: 0.95rem;">Rate this product</div>
+              <div class="modal-star-rating" id="modalStarRating" role="group" aria-label="Rate this product"></div>
+              <div class="rating-stats" id="ratingStats" aria-live="polite">No ratings yet</div>
+            </div>
+            
+            <p class="modal-description" id="modalDesc"></p>
+            
+            <div class="compare-section">
+              <div class="compare-title">Compare Prices</div>
+              <div class="compare-options">
+                <div class="compare-option">
+                  <div class="compare-option-label">Amazon</div>
+                  <div class="compare-option-price" id="amazonPrice">—</div>
+                  <a id="amazonLink" class="btn" target="_blank" rel="noopener noreferrer">Buy on Amazon</a>
+                </div>
+                <div class="compare-option">
+                  <div class="compare-option-label">eBay</div>
+                  <div class="compare-option-price" id="ebayPrice">—</div>
+                  <a id="ebayLink" class="btn" target="_blank" rel="noopener noreferrer">Buy on eBay</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="action-buttons">
+              <button class="btn" id="addWishlistBtn" aria-label="Add to wishlist">❤️ Add to Wishlist</button>
+              <button class="ghost" id="shareBtn" aria-label="Share product">Share</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="comments-section">
+          <div class="comments-header">
+            💬 Comments (<span id="commentCount">0</span>)
+          </div>
+          
+          <form class="comment-form" id="commentForm">
+            <label for="commentInput" class="sr-only">Add a comment</label>
+            <textarea class="comment-input" id="commentInput" placeholder="Share your thoughts about this product..." aria-label="Comment text" required></textarea>
+            <button type="submit" class="btn comment-submit">Post Comment</button>
+          </form>
+          
+          <div class="comments-list" id="commentsList" role="list" aria-live="polite">
+            <div class="empty-state">No comments yet. Be the first to comment!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="wishlist-panel">
+        <strong style="font-size:1rem;">❤️ My Wishlist</strong>
+        <div class="wishlist-list" id="wishlistList" role="list">
+          <div class="empty-state">No items in wishlist</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" style="margin-top:40px;">
+      <h2 style="font-size:1.6rem; margin-bottom:14px;">About NeoTechVault</h2>
+      <p style="color: var(--text-secondary); line-height:1.6; font-size:0.95rem;">NeoTechVault curates high-quality futuristic gadgets for tech-savvy buyers worldwide. We compare prices and send you directly to reliable seller pages (Amazon/eBay). We may earn commissions through affiliate links.</p>
+    </section>
+
+    <section id="faq" style="margin-top:36px;">
+      <h3 style="font-size:1.4rem; margin-bottom:16px;">Frequently Asked Questions</h3>
+      <details class="faq-item">
+        <summary>Are you the seller?</summary>
+        <div class="faq-content">
+          No — we are a curation platform that lists and compares products from major marketplaces like Amazon and eBay. We help you find the best deals but don't sell products directly.
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>How do you earn revenue?</summary>
+        <div class="faq-content">
+          We use affiliate links and may earn a commission on qualifying purchases made through our platform. This doesn't affect the price you pay and helps us maintain this free service.
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>Is it safe to buy through your links?</summary>
+        <div class="faq-content">
+          Yes — we link directly to official sellers like Amazon and eBay. Always check seller ratings and reviews before making a purchase. We don't handle transactions or store payment information.
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary>How do ratings work?</summary>
+        <div class="faq-content">
+          Our star rating system allows verified purchasers to rate products. While we display ratings for demonstration purposes, actual ratings would be from customers who have purchased and used the products.
+        </div>
+      </details>
+    </section>
+
+    <section id="contact" style="margin-top:36px;">
+      <h3 style="font-size:1.4rem; margin-bottom:10px;">Contact Us</h3>
+      <p style="color: var(--text-secondary); font-size:0.95rem;">For business inquiries: <a href="mailto:wisdom166chiboy@gmail.com">Mail us Today</a></p>
+    </section>
+
+    <footer>
+      <div style="display:flex; flex-wrap: wrap; justify-content: space-between; gap:16px;">
+        <div>© 2025 NeoTechVault — All rights reserved.</div>
+        <div>Affiliate Disclosure: We participate in Amazon and eBay affiliate programs.</div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- External JavaScript -->
+  <script src="app.js" defer></script>
+</body>
+</html>
